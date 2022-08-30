@@ -22,4 +22,4 @@ Installable tweaks.
 
 ### Quality of Life
 
-
+* [chrome-graceful-shutdown](tweaks/chrome-graceful-shutdown/): Gracefully exit FlatPak Chrome on desktop mode logout

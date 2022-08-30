@@ -1,0 +1,15 @@
+name='Chrome Graceful Shutdown'
+desc='Gracefully exit FlatPak Chrome on desktop mode logout'
+cat=$CATEGORY[QUALITY_OF_LIFE]
+version=1
+
+depends=(
+	'flatpak/com.google.Chrome: Chrome should be installed for this tweak'
+)
+
+install:holo() {
+	put 'graceful-shutdown-chrome.sh'
+		dest "$HOME/.config/plasma-workspace/shutdown"
+		name 'graceful-chrome-shutdown'
+		perm 755
+}
