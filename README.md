@@ -18,7 +18,7 @@ Installable tweaks.
 
 ### Theme
 
-
+* [chrome-dark-mode](tweaks/chrome-dark-mode/): Force Chrome to use dark mode for its UI and pages
 
 ### Quality of Life
 

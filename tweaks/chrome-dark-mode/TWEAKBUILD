@@ -1,0 +1,14 @@
+name='Chrome Dark Mode'
+desc='Force Chrome to use dark mode for its UI and pages'
+cat=$CATEGORY[THEME]
+version=1
+
+depends=(
+	'flatpak/com.google.Chrome: Chrome should be installed for this tweak'
+)
+
+install:holo() {
+	put 'chrome-flags.conf'
+		dest "$HOME/.var/app/com.google.Chrome/config/chrome-flags.conf"
+		perm 0644
+}
