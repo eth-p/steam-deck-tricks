@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=systemctl --user restart xdg-desktop-portal
+Icon=warnnext
+Name=Steam Deck Tricks - Fix xdg-desktop-portal Service
+Path=
+Type=Application
+X-KDE-AutostartScript=true
+

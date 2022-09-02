@@ -1,0 +1,13 @@
+name='Fix xdg-desktop-portal Service'
+desc='Fix an issue with the xdg-desktop-portal failing in Desktop Mode'
+cat=$CATEGORY[FIX]
+version=1
+
+depends=()
+
+install:holo() {
+	put 'fix-xdg-desktop-portal.desktop'
+		dest "$HOME/.config/autostart"
+		perm 755
+}
+

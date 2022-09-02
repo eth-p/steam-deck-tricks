@@ -16,6 +16,12 @@ installer/tweak_install.zsh [tweak_name]
 ## Tweaks
 Installable tweaks.
 
+### Fixes
+> These are fixes to known bugs in SteamOS.
+> It is recommended you install them until they're not longer needed! 
+
+* [fix-xdg-desktop-portal](tweaks/fix-xdg-desktop-portal/): Fixes issues with links not being handled properly within Flatpak apps.
+
 ### Theme
 
 * [chrome-dark-mode](tweaks/chrome-dark-mode/): Force Chrome to use dark mode for its UI and pages
