@@ -7,8 +7,10 @@
 declare -Agr CATEGORY=(
 	[QUALITY_OF_LIFE]="quality-of-life"
 	[THEME]="theme"
+	[FIX]="fix"
 )
 
 declare -Agr WELL_KNOWN=(
 	[KDE_LOGOUT_HOOKS]="${HOME}/.config/plasma-workspace/shutdown/"
 )
+
